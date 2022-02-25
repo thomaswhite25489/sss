@@ -1,0 +1,113 @@
+/*header*/
+
+.header{
+
+    height: 550px;
+    background-image: url(../image/image_5.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+}
+
+.header .nav-list .nav-item{
+
+    display: inline-block;
+    padding: 15px;
+    
+}
+
+.header .nav-list .nav-item:hover{
+
+    color: red;
+
+}
+
+.header h1{
+    font-size: 5em;
+    padding-top: 100px;
+}
+
+.header h1 span{
+    color: darkred;
+}
+
+.header p{
+    margin: auto;
+    font-size: 1.5em;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgba(255, 156, 0, .7);
+    border: 3px solid darkblue;
+    margin-top: 30px;
+}
+
+/*end header*/
+
+/*member*/
+
+
+.member{
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.member-name{
+    font-size: 2em;
+}
+
+.member-item{
+    width: 350px;
+    display: inline-block;
+    padding-top: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px #bbbb
+    ;
+}
+
+.member-pic{
+
+    width: 100%;
+
+}
+
+.member-bio{
+    padding: 19px;
+    text-align: justify;
+}
+
+/*end member*/
+
+/*about us*/
+
+.about{
+    height: 700px;
+    background-image: url(../image/image_4.jpg);
+    background-size: cover;
+    padding-top: 40px;
+}
+
+.circle{
+
+    margin: auto;
+    height: 600px;
+    width: 600px;
+    background-color: rgba(128, 128, 0, .6);
+    border-radius: 25%;
+    text-align: center;
+    padding: 40px 50px;
+}
+
+.circle h2{
+
+    font-size: 2em;
+}
+
+.circle p{
+    margin-top: 40px;
+    padding: 10px;
+    text-align: justify;
+}
+
+/*end about us*/

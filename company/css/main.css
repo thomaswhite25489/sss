@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: "Vazir-bold";
+    src: url(../font/Vazir-Bold.woff);
+}
+
+@font-face {
+    font-family: "Vazir-Medium";
+    src: url(../font/Vazir-Medium.woff);
+}
+
+body{
+    font-family: "vazir-Medium";
+    font-size: 18px;
+}
